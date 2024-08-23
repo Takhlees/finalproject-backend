@@ -9,7 +9,7 @@ const port = 4000
 
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001'],
+  origin: ['https://finalproject-frontend-zeta.vercel.app', 'https://finalproject-adminportal.vercel.app'],
   credentials: true
 }));
 
